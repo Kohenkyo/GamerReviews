@@ -28,12 +28,15 @@ A React-based frontend application for gamers to review and discover games. Buil
 2. Install dependencies:
    npm install
 
-3. Start the development server:
+3. Setup enviroment variables (create .env file)
+   VITE_API_BASE_URL=https://localhost:7292/api
+
+4. Run this backend: https://github.com/Kohenkyo/GamerReviews_Backend
+
+5. Start the development server:
    npm run dev
 
-4. Open your browser and navigate to http://localhost:5173
-
-* Backend on this repository: https://github.com/Kohenkyo/GamerReviews_Backend
+6. Open your browser and navigate to http://localhost:5173
 
 
 ## Usage
