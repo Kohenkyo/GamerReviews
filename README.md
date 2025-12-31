@@ -1,6 +1,7 @@
 # Gamer Reviews
 
 A React-based frontend application for gamers to review and discover games. Built with Vite for fast development and featuring a responsive design.
+This project was developed as part of the final project for the Algorithms and Data Structures III course of the Systems Analyst career in 2025.
 
 ## Features
 
