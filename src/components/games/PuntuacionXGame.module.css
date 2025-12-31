@@ -1,0 +1,28 @@
+.game-stats-container {
+    margin: 3rem auto;
+    padding: 1.5rem 3rem;
+    width: 30rem;
+    border: 3px solid var(--text);
+    corner-shape: bevel square;
+    border-radius: 1.5rem;
+    background: var(--bg-color-mid);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.game-stats-icon {
+    width: 4rem;
+    height: auto;
+    filter: invert(10%) sepia(100%) saturate(1000%) hue-rotate(100deg) brightness(100%) contrast(100%); /* Filtro bruto para cambiarle el color al icono svg, variar con hue-rotate */
+}
+.players-container, .rating-container {
+    display: flex;
+    align-items: center;
+}
+.game-rating, .game-players {
+    font-family: thin;
+    color: var(--text);
+    font-size: 2.5rem;
+    padding: 0;
+    margin-left: 1rem;
+}

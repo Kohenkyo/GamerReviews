@@ -1,0 +1,8 @@
+.footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-image: linear-gradient(to left, var(--main-highlight-color), var(--main-highlight-color-dark));
+    padding: 1rem 10%;
+    box-shadow: 0 -.4rem .8rem rgba(0, 0, 0, 0.5);
+}

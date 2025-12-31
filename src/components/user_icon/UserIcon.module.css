@@ -1,0 +1,17 @@
+.user-frame {
+    width: 4rem;
+    height: 4rem;
+    border: 3px solid var(--text);
+    corner-shape: bevel square;
+    border-radius: 1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    overflow: hidden;
+}
+
+.user-icon {
+    max-width: 100%;
+    height: auto;
+}

@@ -1,0 +1,19 @@
+.like-container {
+  display: flex;
+  align-items: center;
+}
+
+.like-icon {
+  width: 1.5rem;
+  height: auto;
+  cursor: pointer;
+  transition: transform 0.2s ease;
+}
+.like-icon:hover {
+  transform: scale(1.2);
+}
+
+.like-count {
+    margin: 0 1.5rem 0 .5rem;
+    padding: 0;
+}

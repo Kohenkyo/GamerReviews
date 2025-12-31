@@ -1,0 +1,64 @@
+.game-card {
+    width: 267px;
+    height: 400px;
+    border: 2px solid var(--text);
+    position: relative;
+    overflow: hidden;
+    transition: all .3s ease;
+}
+
+.game-cover {
+    max-width: 100%;
+    height: auto;
+}
+
+.game-info {
+    width: 100%;
+    background-color: var(--card-info-bg);
+    position: absolute;
+    top: 100%;
+    bottom: 0px;
+    padding: 1rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    transition: top .4s ease;
+}
+.game-card:hover {
+    box-shadow: .8rem .8rem 0px var(--shadow);
+}
+.game-card:hover .game-info, .game-card:active .game-info {
+    top: 0px;
+}
+
+.game-title {
+    font-family: square;
+    color: var(--text);
+    font-size: 1.5rem;
+    margin: 0;
+}
+
+.game-stats-container {
+    margin: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.game-stats-icon {
+    width: 1.5rem;
+    height: auto;
+    filter: invert(10%) sepia(100%) saturate(1000%) hue-rotate(100deg) brightness(100%) contrast(100%); /* Filtro bruto para cambiarle el color al icono svg, variar con hue-rotate */
+}
+
+.players-container, .rating-container {
+    display: flex;
+    align-items: center;
+}
+
+.game-rating, .game-players {
+    font-family: square;
+    color: var(--text);
+    font-size: 1.3rem;
+    padding: 0;
+    margin-left: 0.5rem;
+}

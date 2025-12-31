@@ -1,0 +1,13 @@
+.ranking-title {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+}
+
+.star-icon {
+    width: 5rem;
+    height: auto;
+    margin-right: 1rem;
+    filter: invert(10%) sepia(100%) saturate(1000%) hue-rotate(100deg) brightness(100%) contrast(100%);
+}

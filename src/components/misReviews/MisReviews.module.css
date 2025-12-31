@@ -1,0 +1,42 @@
+.comment-box {
+    margin: 0 auto;
+    padding: 1.5rem;
+    width: 100%;
+    height: fit-content;
+    border: 3px solid var(--text);
+    corner-shape: bevel square;
+    border-radius: 1.5rem;
+    background: var(--bg-color-dark);
+    display: grid;
+    grid-template-columns: minmax(0, 1fr) 6rem;
+    gap: 1rem;
+}
+
+.game-title {
+    margin-bottom: 1rem;
+    padding: 0;
+    font-family: square;
+    font-size: 1.5rem;
+    text-align: start;
+}
+
+.comment-text, .user-score {
+    padding: 0;
+    font-family: thin;
+    font-size: 1.5rem;
+}
+.comment-text {
+    text-align: start;
+    margin-right: 1.5rem;
+}
+
+.score-box {
+    display: flex;
+    justify-content: flex-end;
+}
+.star-icon {
+    margin-right: .5rem;
+    width: 2rem;
+    height: auto;
+    filter: invert(10%) sepia(100%) saturate(1000%) hue-rotate(100deg) brightness(100%) contrast(100%); /* Filtro bruto para cambiarle el color al icono svg, variar con hue-rotate */
+}

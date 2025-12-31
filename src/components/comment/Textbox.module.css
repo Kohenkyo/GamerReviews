@@ -1,0 +1,61 @@
+.textbox-container {
+    margin: 0 auto;
+    margin-bottom: 2rem;
+    padding: 1rem 2rem;
+    width: 100%;
+    height: fit-content;
+    border: 3px solid var(--text);
+    corner-shape: bevel square;
+    border-radius: 1.5rem;
+    background: var(--bg-color-mid);
+}
+
+.subtitle {
+    text-align: start;
+    padding: 0 0 0 1rem;
+}
+
+.review-row {
+    display: grid;
+    grid-template-columns: 9fr 1fr;
+    gap: 1.5rem;
+    background-color: var(--bg-color-mid);
+}
+
+.replybox-container {
+    width: 93%;
+    margin: 0 0 0 auto;
+    padding: 1rem 2rem;
+    height: fit-content;
+    border: 3px solid var(--text);
+    corner-shape: bevel square;
+    border-radius: 1.5rem;
+    background: var(--bg-color-mid);
+}
+
+.comment-form {
+    margin-top: 1rem;
+    display: flex;
+    flex-direction: column;
+}
+.comment-form textarea {
+    margin-bottom: 1.5rem;
+}
+.comment-form button {
+    align-self: end;
+    margin-bottom: 1rem;
+}
+
+.score-combo {
+    margin: 0 0 2rem 0;
+    padding: 0 1rem;
+    color: var(--text);
+    font-family: square;
+    font-size: 2rem;
+    text-align: right;
+    border: 3px solid var(--text);
+    background: var(--bg-color-dark);
+    corner-shape: bevel square;
+    border-radius: 1rem;
+    outline: none;
+}

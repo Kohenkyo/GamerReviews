@@ -1,0 +1,101 @@
+.comment-box {
+    margin: 0 auto;
+    padding: 1.5rem;
+    width: 100%;
+    height: fit-content;
+    border: 3px solid var(--text);
+    corner-shape: bevel square;
+    border-radius: 1.5rem;
+    background: var(--bg-color-dark);
+    display: grid;
+    grid-template-columns: 5rem minmax(0, 1fr) 7rem;
+    gap: 1rem;
+}
+
+.reply-box {
+    width: 93%;
+    margin: 0 0 0 auto;
+    padding: 1.5rem;
+    width: 93%;
+    height: fit-content;
+    border: 3px solid var(--text);
+    corner-shape: bevel square;
+    border-radius: 1.5rem;
+    background: var(--bg-color-gray);
+    display: grid;
+    grid-template-columns: 5rem minmax(0, 1fr);
+    gap: 1rem;
+}
+
+.comment-column .user-name, .comment-column .comment-text {
+    text-align: start;
+}
+
+.user-name {
+    margin-bottom: 1rem;
+    padding: 0;
+    font-family: square;
+    font-size: 1.5rem;
+}
+
+.comment-text, .user-score, .comment-likes {
+    padding: 0;
+    font-family: thin;
+    font-size: 1.5rem;
+}
+.comment-text {
+    margin-right: 1.5rem;
+}
+
+.action-column {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+
+.score-box {
+    display: flex;
+}
+.star-icon {
+    margin-right: .5rem;
+    width: 2rem;
+    height: auto;
+    filter: invert(10%) sepia(100%) saturate(1000%) hue-rotate(100deg) brightness(100%) contrast(100%); /* Filtro bruto para cambiarle el color al icono svg, variar con hue-rotate */
+}
+.action-box{
+    display: flex;
+    justify-content: space-evenly;
+    align-self: flex-end;
+}
+.action-icon {
+    width: 1.5rem;
+    height: auto;
+    cursor: pointer;
+    transition: transform 0.2s ease;
+}
+.action-icon:hover {
+  transform: scale(1.2);
+}
+.comment-stats {
+    margin-left: .5rem;
+    text-align: end;
+    padding: 0;
+}
+
+.user-frame {
+    width: 5rem;
+    height: 5rem;
+    border: 3px solid var(--text);
+    corner-shape: bevel square;
+    border-radius: 1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    overflow: hidden;
+}
+.user-icon {
+    max-width: 100%;
+    height: auto;
+}

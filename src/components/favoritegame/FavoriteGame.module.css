@@ -1,0 +1,31 @@
+.favorite-game-container {
+    position: absolute;
+    top: -.25rem;
+    left: 1rem;
+    z-index: 100;
+    width: auto;
+    padding: 1rem;
+    background: linear-gradient(90deg, var(--main-highlight-color-dark) 0%, var(--main-highlight-color) 50%, var(--main-highlight-color-dark) 100%);
+    background-size: 200% 100%;
+    background-position-x: 0%;
+    border-radius: 1rem;
+    corner-shape: square square bevel bevel;
+    box-shadow: 4px 4px 0px 0px rgba(0,0,0,0.4);
+    transition: all 0.3s ease;
+}
+.favorite-game-container:hover {
+    background-position-x: 100%;
+    opacity: 1;
+}
+.favorite-game-container:hover .favorite-icon {
+  transform: scale(1.2);
+  filter: none;
+}
+
+.favorite-icon {
+  width: 2.5rem;
+  height: auto;
+  cursor: pointer;
+  filter: invert(10%) sepia(100%) saturate(1000%) hue-rotate(100deg) brightness(100%) contrast(100%); /* Filtro bruto para cambiarle el color al icono svg, variar con hue-rotate */
+  transition: transform 0.2s ease;
+}

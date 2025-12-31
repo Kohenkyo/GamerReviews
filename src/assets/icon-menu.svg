@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg width="100%" height="100%" viewBox="0 0 32 32" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve" xmlns:serif="http://www.serif.com/" style="fill-rule:evenodd;clip-rule:evenodd;stroke-linejoin:round;stroke-miterlimit:2;">
+    <g id="hamburger-menu" transform="matrix(0.0714286,0,0,0.0714286,-2.28571,-2.28571)">
+        <path d="M32,96L32,160L480,160L480,96L32,96ZM32,224L32,288L480,288L480,224L32,224ZM32,352L32,416L480,416L480,352L32,352Z" style="fill:white;fill-rule:nonzero;"/>
+    </g>
+</svg>

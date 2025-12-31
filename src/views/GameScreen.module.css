@@ -1,0 +1,117 @@
+.game-info-container {
+    display: flex;
+    gap: 2rem;
+    justify-content: space-between;
+}
+
+.game-info-column {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+.game-title-block {
+    display: flex;
+    justify-content: space-between;
+}
+
+.game-info {
+    display: flex;
+    flex-direction: column;
+}
+
+.game-info p {
+    padding: 0;
+    text-align: start;
+}
+
+.game-description {
+    text-align: left;
+    padding: 0;
+}
+
+.game-stats-container {
+    margin: 3rem auto;
+    padding: 1.5rem 3rem;
+    width: 30rem;
+    border: 3px solid var(--text);
+    corner-shape: bevel square;
+    border-radius: 1.5rem;
+    background: var(--bg-color-mid);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.game-stats-icon {
+    width: 4rem;
+    height: auto;
+    filter: invert(10%) sepia(100%) saturate(1000%) hue-rotate(100deg) brightness(100%) contrast(100%); /* Filtro bruto para cambiarle el color al icono svg, variar con hue-rotate */
+}
+.players-container, .rating-container {
+    display: flex;
+    align-items: center;
+}
+.game-rating, .game-players {
+    font-family: thin;
+    color: var(--text);
+    font-size: 2.5rem;
+    padding: 0;
+    margin-left: 0.5rem;
+}
+
+.game-image-column {
+    position: relative;
+    min-width: 267px;
+    max-width: 400px;
+    height: auto;
+}
+.game-image {
+    object-fit: cover;
+    border: 2px solid var(--text);
+}
+
+.comment-section-title {
+    display: flex;
+    align-items: center;
+}
+
+.comment-icon {
+    width: 3rem;
+    height: auto;
+    margin-right: 1rem;
+    filter: invert(10%) sepia(100%) saturate(1000%) hue-rotate(100deg) brightness(100%) contrast(100%);
+}
+
+.comments-container {
+    margin: 2rem 0;
+    corner-shape: bevel square;
+    border-radius: 1.5rem;
+    background: var(--bg-color-dark);
+}
+
+.admin-buttons {
+    display: flex;
+    gap: 1rem;
+}
+
+.tags-container {
+    margin: 1rem 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+    gap: 1rem;
+}
+.tag {
+    background-image: linear-gradient(to left, var(--main-highlight-color), var(--main-highlight-color-dark));
+    padding: .25rem .5rem;
+    corner-shape: bevel square;
+    border-radius: .5rem;
+}
+.tags-container button {
+    font-family: thin;
+    font-size: 1.5rem;
+    font-weight: 800;
+    padding: .25rem .75rem;
+    border-radius: .5rem;
+}

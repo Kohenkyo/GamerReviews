@@ -1,0 +1,70 @@
+.carousel-wrapper {
+    width: 100%;
+    margin: 0 auto;
+    position: relative;
+    overflow: hidden;
+}
+
+.image-container {
+    width: 50rem;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    transition: transform .5s ease;
+    transform: translateX(calc(-100% * var(--current-slide)));
+}
+
+.gradient-left, .gradient-right {
+    position: absolute;
+    top: 0;
+    width: 15%;
+    height: 100%;
+    display: flex;
+}
+
+.gradient-left {
+    background: linear-gradient(90deg, var(--bg-color-dark), transparent);
+}
+.gradient-right {
+    background: linear-gradient(-90deg, var(--bg-color-dark), transparent);
+    right: 0;
+}
+
+.arrows {
+    font-size: 10rem;
+    color: rgba(255, 255, 255, .25);
+    margin: 0 auto;
+    transition: color .3s ease;
+}
+.arrows:hover {
+    color: rgba(255, 255, 255, .5);
+}
+
+.dots {
+    background-color: black;
+    border-radius: 1rem;
+    padding: .5rem 1rem;
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+    width: fit-content;
+    margin: .5rem auto;
+}
+
+.dot {
+    cursor: pointer;
+    width: 1rem;
+    height: 1rem;
+    background-color: white;
+    border-radius: 50%;
+    transition: transform .2s ease;
+}
+.dot:hover {
+    transform: scale(125%);
+}
+
+.dot-current {
+    background-color: cyan;
+}
+
+
