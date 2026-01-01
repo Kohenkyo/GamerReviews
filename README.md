@@ -23,7 +23,7 @@ This project was developed as part of the final project for the Algorithms and D
 ## Installation
 
 1. Clone the repository:
-   git clone https://github.com/Kohenkyo/gamer-reviews.git
+   git clone https://github.com/Kohenkyo/GamerReviews.git
    cd gamer-reviews
 
 2. Install dependencies:
