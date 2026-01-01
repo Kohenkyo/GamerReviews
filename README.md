@@ -24,7 +24,6 @@ This project was developed as part of the final project for the Algorithms and D
 
 1. Clone the repository:
    git clone https://github.com/Kohenkyo/GamerReviews.git
-   cd gamer-reviews
 
 2. Install dependencies:
    npm install
