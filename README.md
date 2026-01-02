@@ -45,3 +45,9 @@ This project was developed as part of the final project for the Algorithms and D
 - **Game Details**: Click on a game to view reviews, ratings, and details
 - **User Profile**: Manage your account and view your reviews
 - **Admin**: Access administrative features (requires admin privileges)
+
+
+## Notes
+- Backend repository: [GamerReviews_Backend](https://github.com/Kohenkyo/GamerReviews_Backend)
+
+*This Repository is a copy of the original project that was developed with a team.
