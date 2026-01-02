@@ -8,7 +8,7 @@ export const GetAllTags = () => {
   const [error, setError] = useState(null);
 
   useEffect(() => {
-    fetch("${import.meta.env.VITE_API_BASE_URL}/Tag/get-tags", {
+    fetch(`${import.meta.env.VITE_API_BASE_URL}/Tag/get-tags`, {
       method: "GET",
       mode: "cors"
     })

@@ -5,7 +5,7 @@ export const GameList = () => {
   const [games, setGames] = useState([]);
 
   useEffect(() => {
-    fetch("${import.meta.env.VITE_API_BASE_URL}/Juego/get-all-games",
+    fetch(`${import.meta.env.VITE_API_BASE_URL}/Juego/get-all-games`,
       {
         method: "GET",
         mode: "cors"

@@ -15,7 +15,7 @@ export const EditUser = async(userData) =>{
 
 
     try {
-        const response = await fetch("${import.meta.env.VITE_API_BASE_URL}/Login/update-user", {
+        const response = await fetch(`${import.meta.env.VITE_API_BASE_URL}/Login/update-user`, {
             method: "PATCH",
             headers: {
                 "Authorization": `Bearer ${token}`

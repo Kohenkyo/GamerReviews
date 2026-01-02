@@ -17,7 +17,7 @@ const Reply = ({ comentarioId, onRespuestaAgregada }) => {
     }
 
     try {
-      const res = await fetch("${import.meta.env.VITE_API_BASE_URL}/Respuesta/add-respuesta", {
+      const res = await fetch(`${import.meta.env.VITE_API_BASE_URL}/Respuesta/add-respuesta`, {
         method: "POST",
         headers: { "Authorization": `Bearer ${token}`,
                     "Content-Type": "application/json" 

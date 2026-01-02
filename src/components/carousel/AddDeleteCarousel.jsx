@@ -9,7 +9,7 @@ export const AddDeleteCarousel = () => {
 
   // 🔹 Cargar los juegos del carrusel
   useEffect(() => {
-    fetch("${import.meta.env.VITE_API_BASE_URL}/Juego/get-proxjuegos", {
+    fetch(`${import.meta.env.VITE_API_BASE_URL}/Juego/get-proxjuegos`, {
       method: "GET",
       headers: { accept: "application/json" ,},
     })
@@ -31,7 +31,7 @@ export const AddDeleteCarousel = () => {
     const formData = new FormData(e.target);
 
     try {
-      const response = await fetch("${import.meta.env.VITE_API_BASE_URL}/Juego/create-proxjuego", {
+      const response = await fetch(`${import.meta.env.VITE_API_BASE_URL}/Juego/create-proxjuego`, {
         method: "POST",
         headers: {
               "Authorization": `Bearer ${token}`
@@ -46,7 +46,7 @@ export const AddDeleteCarousel = () => {
       e.target.reset();
 
       // Refrescar lista
-      const refresh = await fetch("${import.meta.env.VITE_API_BASE_URL}/Juego/get-proxjuegos");
+      const refresh = await fetch(`${import.meta.env.VITE_API_BASE_URL}/Juego/get-proxjuegos`);
       const refreshed = await refresh.json();
       setProxJuegos(refreshed.data);
     } catch (error) {

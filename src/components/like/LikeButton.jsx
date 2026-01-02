@@ -17,7 +17,7 @@ const LikeButton = ({ comentarioId, initialLiked = false, initialCount = 0 }) =>
         return;
       }
 
-      const res = await fetch("${import.meta.env.VITE_API_BASE_URL}/Comentario/toggle-like", {
+      const res = await fetch(`${import.meta.env.VITE_API_BASE_URL}/Comentario/toggle-like`, {
         method: "POST",
         headers: {
           "Content-Type": "application/json",

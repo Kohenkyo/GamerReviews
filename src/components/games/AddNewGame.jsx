@@ -26,7 +26,7 @@ export const AddNewGame = () => {
     formData.set("FechaCreacion", fechaFormateada);
 
     try {
-      const response = await fetch("${import.meta.env.VITE_API_BASE_URL}/Juego/create-juego", {
+      const response = await fetch(`${import.meta.env.VITE_API_BASE_URL}/Juego/create-juego`, {
         method: "POST",
         body: formData,
         headers: {

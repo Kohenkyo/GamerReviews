@@ -12,7 +12,7 @@ export const TagsForGames = () => {
   const token = localStorage.getItem("jwtToken");
 
   useEffect(() => {
-    fetch("${import.meta.env.VITE_API_BASE_URL}/Tag/get-tags", {
+    fetch(`${import.meta.env.VITE_API_BASE_URL}/Tag/get-tags`, {
       method: "GET",
       mode: "cors"
     })

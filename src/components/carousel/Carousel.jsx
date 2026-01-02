@@ -10,7 +10,7 @@ export const Carousel = () => {
   useEffect(() => {
     const fetchImages = async () => {
       try {
-        const response = await fetch("${import.meta.env.VITE_API_BASE_URL}/Juego/get-proxjuegos"); 
+        const response = await fetch(`${import.meta.env.VITE_API_BASE_URL}/Juego/get-proxjuegos`); 
         const data = await response.json();
 
         

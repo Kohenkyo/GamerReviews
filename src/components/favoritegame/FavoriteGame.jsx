@@ -31,7 +31,7 @@ const FavoriteGame = ({ juegoId }) => {
   // 🔹 Toggle favorito
   const handleToggleFavorito = async () => {
     try {
-      const res = await fetch("${import.meta.env.VITE_API_BASE_URL}/Juego/add-favorite-game", {
+      const res = await fetch(`${import.meta.env.VITE_API_BASE_URL}/Juego/add-favorite-game`, {
         method: "POST",
         headers: { "Content-Type": "application/json" ,
             "Authorization": `Bearer ${token}`

@@ -12,7 +12,7 @@ export const EditGame = async (data) => {
         "Authorization": `Bearer ${token}`
         };
 
-    const res = await fetch("${import.meta.env.VITE_API_BASE_URL}/Juego/edit-game", {
+    const res = await fetch(`${import.meta.env.VITE_API_BASE_URL}/Juego/edit-game`, {
     method: "PATCH",
     body: isFormData ? data : JSON.stringify(data),
     headers,

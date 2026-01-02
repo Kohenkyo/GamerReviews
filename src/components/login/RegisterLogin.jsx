@@ -2,7 +2,7 @@ import React from "react";
 
 export const RegisterLogin = async(userData) => {
     try {
-        const response = await fetch("${import.meta.env.VITE_API_BASE_URL}/Login/create-user", {
+        const response = await fetch(`${import.meta.env.VITE_API_BASE_URL}/Login/create-user`, {
             method: "POST",
             headers: {
                 "Content-Type": "application/json",

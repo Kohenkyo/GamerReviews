@@ -3,7 +3,7 @@ export const RegisterComment = async(commentData) => {
     try {
     const token = localStorage.getItem("jwtToken");
 
-    const response = await fetch("${import.meta.env.VITE_API_BASE_URL}/Comentario/add-comentario", {
+    const response = await fetch(`${import.meta.env.VITE_API_BASE_URL}/Comentario/add-comentario`, {
         method: "POST",
         headers: {
             "Authorization": `Bearer ${token}`,

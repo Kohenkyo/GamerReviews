@@ -13,7 +13,7 @@ export const LoginScreen = () => {
     const contrasena = document.getElementById("contrasena").value;
 
     try {
-      const res = await fetch("${import.meta.env.VITE_API_BASE_URL}/Login/login", {
+      const res = await fetch(`${import.meta.env.VITE_API_BASE_URL}/Login/login`, {
         method: "POST",
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify({
