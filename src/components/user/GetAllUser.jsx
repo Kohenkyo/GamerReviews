@@ -10,7 +10,7 @@ export const GetAllUser = () => {
 
   const fetchUsuarios = async () => {
     try {
-      const res = await fetch('${import.meta.env.VITE_API_BASE_URL}/Login/get-all-users', {
+      const res = await fetch(`${import.meta.env.VITE_API_BASE_URL}/Login/get-all-users`, {
         method: 'GET',
         headers: { accept: 'application/json',
           "Authorization": `Bearer ${token}`,
