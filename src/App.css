@@ -33,6 +33,15 @@
     padding: 1rem 0;
 }
 
+.guide-text {
+    color: grey;
+    font-family: thin;
+    font-size: 1.2rem;
+    text-align: start;
+    margin: 0;
+    padding: 1rem;
+}
+
 .btn {
     height: min-content;
     font-family: square;

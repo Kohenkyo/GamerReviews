@@ -144,6 +144,7 @@ export const AddDeleteCarousel = () => {
             required
             className="input"
           />
+          <p className="guide-text">Resolucion recomendada 1280x720 px</p>
 
           <button type="submit" className="btn submit-button">Agregar al Carrusel</button>
         </form>

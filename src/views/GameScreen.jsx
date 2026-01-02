@@ -265,6 +265,7 @@ export const GameScreen = () => {
               >
                 Cambiar Cover
               </button>
+              <p className="guide-text">Resolucion recomendada 267x400 px</p>
               <input
                 type="file"
                 id="imagenInput"
